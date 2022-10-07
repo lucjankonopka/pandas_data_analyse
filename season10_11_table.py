@@ -59,10 +59,8 @@ for column in new_columns:
 league_table = pd.DataFrame(columns=['Team', 'Games Played', 'Wins', 'Draws',
                             'Loses', 'GS', 'GC', 'GD', 'Points'])
 
-
 # Creating dictionaries with team stats:
 team_stats = dict()
-
 
 # Creating stats for each team:
 for team in teams_names:
@@ -97,10 +95,11 @@ for team in teams_names:
     team_stats
 
     # Appending the team stats into the league table:
-    league_table = league_table.append(team_stats[team], ignore_index = True)
+    league_table = league_table.append(team_stats[team], ignore_index=True)
 league_table
 
-end_league_table = league_table.sort_values(by=['Points', 'GD'], ascending=False)
+end_league_table = league_table.sort_values(
+    by=['Points', 'GD'], ascending=False)
 end_league_table = end_league_table.reset_index(drop=True)
 end_league_table.index += 1
 end_league_table
