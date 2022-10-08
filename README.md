@@ -2,6 +2,7 @@
 
 Data analysis with python + pandas library.
 The goal was to create the league table after Premier League season 2010/2011 from .csv database with Premier League scores from seasons 2010 - 2021.
+Created for training purposes, getting to know the functionality of the pandas library.
 
 #datasource: https://www.kaggle.com/code/salilchoubey/epl-data/data
 
