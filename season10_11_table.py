@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 epl = pd.read_csv('input_data/df_full_premierleague.csv', index_col=0)
 
@@ -105,3 +106,4 @@ end_league_table.index += 1
 end_league_table
 
 print(end_league_table.to_string())
+end_league_table.to_csv(r'output_data.csv', header=True, index=True, sep=',')
