@@ -1,10 +1,13 @@
-# pandas_data_analysis
+# Python/Pandas - Premier League 2010/11 League Table
+
+Technology used: *python, pandas*
+
+## Abstract
 
 Trainig data analysis with python + pandas library.
-The goal was to create the league table after Premier League season 2010/2011 from .csv database with Premier League scores from seasons 2010 - 2021.
+The goal was to create the league table after Premier League season 2010/2011 from [.csv database](https://www.kaggle.com/code/salilchoubey/epl-data/data) with Premier League scores from seasons 2010 - 2021.
 Created for training purposes, getting to know the functionality of the pandas library.
 
-#datasource: https://www.kaggle.com/code/salilchoubey/epl-data/data
 
 Main steps:
 - sorting and extracting data to get 380 games from 2010/2011 season
@@ -12,4 +15,3 @@ Main steps:
 - calculating & assigning the team season stats into a list of dictionaries (dict for each team)
 - appending the team stats into the new league table, sorting etc.
 
-Thanks!
